@@ -40,6 +40,22 @@ p, h1, h2, h3, a {
 	font-size: x-large;
 	color: white;
 	text-decoration: none;
+	position: relative;
+}
+.header-section .right-section .navigation a::after{
+	position: absolute;
+	left: 0px;
+	bottom: -8px;
+	
+	content: " ";
+	height: 3px;
+	width: 0px;
+	
+	background-color: red;
+	transition: 0.3s;
+}
+.header-section .right-section .navigation a:hover::after{
+	width: 100%;
 }
 
 
