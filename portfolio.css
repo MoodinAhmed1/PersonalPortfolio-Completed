@@ -79,5 +79,40 @@ p, h1, h2, h3, a {
 }
 
 /*-----------------------   about   ----------------------------*/
+.about-section .container .div{
+	display: flex;
+	gap: 40px;
+	height: 850px;
+}
+.image-section,
+.info-section{
+	flex: 1;
+}
+
+.image-section img{
+	padding-left: 150px;
+	padding-top: 150px;
+}
+
+.info-section{
+	padding: 300px 100px 0px 0px;
+}
+.tab-headers {
+	display: flex;
+	gap: 80px;
+}
+.tab-link{
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.texts-div .text p{
+	color:white;
+}
+.texts-div .text span{
+	color:red;
+	padding-bottom: 10px;
+}
 
 
