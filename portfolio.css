@@ -26,8 +26,8 @@ p, h1, h2, h3, a {
 	flex: 1 2 100px;
 }
 .header-section .left-section .logo {
-	margin-left: 150px;
-	margin-top: 10px;
+	margin-left: 80px;
+	margin-top: 30px;
 }
 .header-section .right-section .navigation{
 	display: grid;
@@ -41,3 +41,25 @@ p, h1, h2, h3, a {
 	color: white;
 	text-decoration: none;
 }
+
+
+.header-section .left-section .intro-text{
+	padding: 150px 0px 0px 80px;
+}
+.header-section .left-section .intro-text h3,
+.header-section .left-section .intro-text h1{
+	color: white;
+}
+.header-section .left-section .intro-text h3{
+	font-size: 30px;
+	font-weight: 100;
+}
+.header-section .left-section .intro-text h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.header-section .left-section .intro-text .name{
+	color: red;
+}
+
+
