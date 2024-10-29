@@ -95,8 +95,9 @@ p, h1, h2, h3, a {
 }
 
 .info-section{
-	padding: 300px 100px 0px 0px;
+	padding: 250px 100px 0px 0px;
 }
+
 .tab-headers {
 	display: flex;
 	gap: 80px;
@@ -108,16 +109,6 @@ p, h1, h2, h3, a {
 
 	position: relative;
 }
-
-.texts-div .text p{
-	color:white;
-}
-.texts-div .text span{
-	color:red;
-	padding-bottom: 10px;
-}
-
-
 .tab-link::after{
 	position: absolute;
 	bottom: -8px;
@@ -132,7 +123,25 @@ p, h1, h2, h3, a {
 	transition: 0.3s;
 
 }
-.tab-link:hover::after{
+.tab-link.activeTab::after{
 	width: 50%;
+}
+
+.texts-div {
+	max-width: 500px;
+}
+.texts-div .text p{
+	color:white;
+	font-size: 20px;
+	line-height: 1.5;
+	display: none;
+}
+.texts-div .text span{
+	color:red;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+.texts-div .text.activeText p{
+	display: block;
 }
 
