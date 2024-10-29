@@ -127,21 +127,21 @@ p, h1, h2, h3, a {
 	width: 50%;
 }
 
-.texts-div {
+.tab-texts {
 	max-width: 500px;
 }
-.texts-div .text p{
+.tab-texts .text p{
 	color:white;
 	font-size: 20px;
 	line-height: 1.5;
 	display: none;
 }
-.texts-div .text span{
+.tab-texts .text span{
 	color:red;
 	padding-bottom: 10px;
 	font-weight: bold;
 }
-.texts-div .text.activeText p{
+.tab-texts .text.activeText p{
 	display: block;
 }
 
