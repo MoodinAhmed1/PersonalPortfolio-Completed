@@ -78,14 +78,14 @@ p, h1, h2, h3, a {
 	color: red;
 }
 
-/*-----------------------   about   ----------------------------*/
+/*---------------------   about   -------------------------*/
 .about-section .container .div{
 	display: flex;
 	gap: 40px;
 	height: 850px;
 }
 .image-section,
-.info-section{
+.about-section .container .div .info-section{
 	flex: 1;
 }
 
@@ -94,7 +94,7 @@ p, h1, h2, h3, a {
 	padding-top: 150px;
 }
 
-.info-section{
+.about-section .container .div .info-section{
 	padding: 250px 100px 0px 0px;
 }
 
@@ -145,3 +145,40 @@ p, h1, h2, h3, a {
 	display: block;
 }
 
+/*------------------ services -------------*/
+#services-section{
+	height: 850px;
+}
+.services-section-class .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.services-section-class .container .div .title {
+	color: gray;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.container .div .services-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+.container .services-grid img {
+	height: 150px;
+	width: 150px;
+}
+.container .services-grid .info-section {
+	width: 400px;
+	background-color: gray;
+	padding: 70px 25px;
+	border-radius: 15px;
+	transition: 0.3s background-color, 0.3s transform;
+}
+.container .services-grid .info-section:hover{
+	background-color: rgb(155, 20, 20);
+	transform: translateY(-19px);
+}
