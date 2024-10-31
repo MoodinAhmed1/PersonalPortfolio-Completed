@@ -182,3 +182,39 @@ p, h1, h2, h3, a {
 	background-color: rgb(155, 20, 20);
 	transform: translateY(-19px);
 }
+
+/*----------------- myWorks -----------------*/
+
+.my-works-section-class .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.my-works-section-class .container .div{
+	margin: 100px;
+}
+
+.my-works-section-class .container .div h1{
+	color: gray;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.my-works-section-class .container .div .my-works-grid{
+	display: grid;
+	grid-template-columns: repeat(3, minmax(250px, 1fr));
+	gap: 25px;
+}
+.my-works-section-class .container .div .my-works-grid .work{
+	width: 400px;
+	height: 550px;
+	padding: 20px;
+	background-color: rgb(24, 27, 27);
+	border-radius: 15px;
+}
+.my-works-section-class .container .div .my-works-grid .work img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 15px;
+}
