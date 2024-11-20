@@ -225,7 +225,6 @@ p, h1, h2, h3, a {
 }
 .my-works-section-class .container .div .my-works-grid .work:hover img{
 	transform: scale(1.2); /* Zoom in effect */
-
 }
 
 .my-works-section-class .container .div .my-works-grid .work .layer {
